@@ -1,18 +1,18 @@
 name: gamificacion
 
 channels:
-  - conda-forge
   - pytorch
   - nvidia
+  - conda-forge
 
 dependencies:
   - python=3.11
   - numpy
   - opencv
+  - pip
   - pytorch
   - torchvision
   - torchaudio
   - pytorch-cuda=12.4
-  - pip
   - pip:
       - ultralytics
